@@ -15,17 +15,18 @@
             </div>
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="#">About</a></li>
-                    <li class="header__nav-item"><a href="#">Portfolio</a></li>
-                    <li class="header__nav-item"><a href="#">Contact</a></li>
+                    <li class="header__nav-item"><a href="#profile">Profile</a></li>
+                    <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="header__nav-item"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="profile">
+        <main class="profile" id="profile">
             <div class="profile__wrapper">
                 <div class="profile__img-container">
                     <img src="/multimedia/imagen.jpg" alt="Pandi Chill" class="profile__img">
                 </div>
+
                 <div class="profile__data-container">
                     <div class="profile__data">
                         <div class="profile__description">
@@ -34,6 +35,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut amet, asperiores incidunt maxime quae laudantium ipsum repellat animi ducimus quas praesentium harum eveniet, expedita unde ipsa ea inventore, error nulla.
                             </p>
                         </div>
+
                         <div class="profile__skills-container">
                             <h2>SKILLS</h2>
                             <ul>
@@ -72,10 +74,81 @@
                                     <span class="profile__skill-name">SQL</span>
                                 </li>
                             </ul>
+
                         </div>
+
                     </div>
                 </div>
+
             </div>
         </main>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+            <div class="portfolio__project-container">
+
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="form" id="contact">
+            <h2 class="form__title">CONTACT</h2>
+            <form class="form__form">
+                <div class="form__input-container">
+                    <label>Nombre
+                        <input type="text" placeholder="John">
+                    </label>
+                </div>
+
+                <div class="form__input-container">
+                    <label>Apellido
+                        <input type="text" placeholder="Doe">
+                    </label>
+                </div>
+
+                <div class="form__input-container">
+                    <label>E-mail
+                        <input type="text" placeholder="yourmail@example.com">
+                    </label>
+                </div>
+
+                <div class="form__input-container">
+                    <label>Mensaje
+                        <textarea placeholder="Your message"></textarea>
+                    </label>
+                </div>
+
+                <div class="form__input-container">
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <strong>Pandi</strong> - Copyrights
+        </footer>
     </body>
 </html>
